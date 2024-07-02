@@ -1,5 +1,9 @@
 .App {
+  background-image: url("./assets/backkground.avif");
+  background-position: center;
+  background-size: cover;
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -27,6 +31,54 @@
 .App-link {
   color: #61dafb;
 }
+
+h1{
+  font-size: 2em;
+  font-weight: 600;
+  text-shadow: 
+  0 0 10px rgba(255, 255, 255, 0.9),
+  0 0 20px rgba(255, 255, 255, 0.8),
+  0 0 30px rgba(255, 255, 255, 0.7),
+  0 0 40px rgba(255, 255, 255, 0.6),
+  0 0 50px rgba(255, 255, 255, 0.5);
+}
+
+.table-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  display: table;
+  width: 80vw;
+  border-collapse: collapse;
+}
+
+.table-item {
+  display: table-row;
+  background-color: #ebebebb2;
+}
+
+.table-item > span {
+  display: table-cell;
+  padding: 8px;
+  border: 1px solid #7e7e7e;
+}
+
+.table-header {
+  display: table-row;
+  background-color: #cbffe7;
+  font-weight: bold;
+}
+
+.table-header > span {
+  display: table-cell;
+  padding: 8px;
+  border: 1px solid #161616;
+}
+
 
 @keyframes App-logo-spin {
   from {
